@@ -26,7 +26,8 @@
     "@electron-toolkit/utils": "^4.0.0",
     "@tailwindcss/postcss": "^4.0.13",
     "@tailwindcss/vite": "^4.0.13",
-    "amqplib": "^0.10.3"
+    "amqplib": "^0.10.3",
+    "jotai": "^2.12.2"
   },
   "devDependencies": {
     "@electron-toolkit/eslint-config-prettier": "^3.0.0",
