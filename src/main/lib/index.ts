@@ -1,8 +1,8 @@
-import { appDirectoryName } from '@/shared/constants'
-import { NoteInfo } from '@/shared/models'
+import { appDirectoryName } from '@shared/constants'
+import { NoteInfo } from '@shared/models'
+import { GetNotes } from '@shared/types'
 import { ensureDir, readdir, stat } from 'fs-extra'
 import { homedir } from 'os'
-import { GetNotes } from 'src/renderer/src/shared/types'
 
 export const getRootDir = () => {
   return `${homedir()}/${appDirectoryName}`

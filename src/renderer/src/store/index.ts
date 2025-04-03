@@ -1,5 +1,5 @@
 
-import { NoteInfo } from "@renderer/shared/models"
+import { NoteInfo } from "@shared/models"
 import { atom } from "jotai"
 import { unwrap } from "jotai/utils"
 
