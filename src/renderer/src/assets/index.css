@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@layer base{
+    #root {
+        @apply h-full;   
+    }
+    html,body {
+        @apply h-full;
+        @apply select-none;
+        @apply font-mono antialiased ;
+        @apply bg-gray-950;
+    }
+
+    header {
+        -webkit-app-region: drag;
+    }
+
+    button{
+        -webkit-app-region: no-drag;
+    }
+
+    ::-webkit-scrollbar {
+        @apply w-2;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        @apply bg-[#555] rounded-md;
+    }
+
+    ::-wubtik-scrollbar-track {
+        @apply bg-transparent;
+    }
+}
+
